@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCHEMY AR HUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="ar-overlay"></div>
+    <div id="hud-container"></div>
+    <div id="controls">
+        <input type="range" id="opacity-slider" min="0" max="1" step="0.1" value="0.7">
+        <input type="range" id="hue-slider" min="0" max="360" step="1" value="0">
+    </div>
+    <button id="camera-toggle">Toggle Camera</button>
+    <script src="js/hud.js"></script>
+    <script src="js/ar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
